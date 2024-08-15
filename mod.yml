@@ -1,0 +1,92 @@
+title: Bear Skip
+originalAuthor: Shananas
+game: kh2
+description: Skip pooh minigames. For Spooky Cave pooh spawns right next to you.
+assets:
+#Everything else
+- method: binarc
+  name: ard/us/po01.ard
+  multi:
+  - name: ard/fr/po01.ard
+  - name: ard/gr/po01.ard
+  - name: ard/it/po01.ard
+  - name: ard/sp/po01.ard
+  - name: ard/po01.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: files/po01evt.yml
+    type: AreaDataScript
+- method: binarc
+  name: ard/us/po03.ard
+  multi:
+  - name: ard/fr/po03.ard
+  - name: ard/gr/po03.ard
+  - name: ard/it/po03.ard
+  - name: ard/sp/po03.ard
+  - name: ard/po03.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: files/po03evt.yml
+    type: AreaDataScript
+- method: binarc
+  name: ard/us/po04.ard
+  multi:
+  - name: ard/fr/po04.ard
+  - name: ard/gr/po04.ard
+  - name: ard/it/po04.ard
+  - name: ard/sp/po04.ard
+  - name: ard/po04.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: files/po04evt.yml
+    type: AreaDataScript
+- method: binarc
+  name: ard/us/po05.ard
+  multi:
+  - name: ard/fr/po05.ard
+  - name: ard/gr/po05.ard
+  - name: ard/it/po05.ard
+  - name: ard/sp/po05.ard
+  - name: ard/po05.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: files/po05evt.yml
+    type: AreaDataScript
+#Spooky Cave
+- method: binarc
+  name: ard/us/po09.ard
+  multi:
+  - name: ard/fr/po09.ard
+  - name: ard/gr/po09.ard
+  - name: ard/it/po09.ard
+  - name: ard/sp/po09.ard
+  - name: ard/po09.ard
+  source:
+  - method: spawnpoint
+    name: b_30
+    source:
+    - name: files/b_30.yml
+    type: AreaDataSpawn
+#party move
+#- method: binarc
+#  name: ard/us/po09.ard
+#  multi:
+#  - name: ard/fr/po09.ard
+#  - name: ard/gr/po09.ard
+#  - name: ard/it/po09.ard
+#  - name: ard/sp/po09.ard
+#  - name: ard/po09.ard
+#  source:
+#  - method: spawnpoint
+#    name: b_99
+#    source:
+#    - name: b_99.yml
+#    type: AreaDataSpawn
