@@ -46,6 +46,11 @@ assets:
     source:
     - name: files/po04evt.yml
     type: AreaDataScript
+  - method: areadatascript
+    name: map
+    source:
+    - name: files/po04map.yml
+    type: AreaDataScript
 - method: binarc
   name: ard/us/po05.ard
   multi:
@@ -75,18 +80,3 @@ assets:
     source:
     - name: files/b_30.yml
     type: AreaDataSpawn
-#party move
-#- method: binarc
-#  name: ard/us/po09.ard
-#  multi:
-#  - name: ard/fr/po09.ard
-#  - name: ard/gr/po09.ard
-#  - name: ard/it/po09.ard
-#  - name: ard/sp/po09.ard
-#  - name: ard/po09.ard
-#  source:
-#  - method: spawnpoint
-#    name: b_99
-#    source:
-#    - name: b_99.yml
-#    type: AreaDataSpawn
