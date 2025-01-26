@@ -1,7 +1,7 @@
 title: Bear Skip
 originalAuthor: Shananas
 game: kh2
-description: Skip pooh minigames. For Spooky Cave Pooh spawns next to the last chest.
+description: Skip pooh minigames. For Spooky Cave Pooh spawns next to the last chest and next to where you spawn.
 assets:
 #Everything else
 - method: binarc
