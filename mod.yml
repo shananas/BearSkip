@@ -1,65 +1,65 @@
 title: Bear Skip
 originalAuthor: Shananas
 game: kh2
-description: Skip pooh minigames. For Spooky Cave Pooh spawns next to the last chest and next to where you spawn.
+description: Auto completes pooh minigames through ROM thams to num. For Spooky Cave Pooh spawns next to the last chest and next to where you spawn.
 assets:
-#Everything else
+#AI Edit thanks num
 - method: binarc
-  name: ard/us/po01.ard
+  name: msn/us/PO01_MS501.bar
   multi:
-  - name: ard/fr/po01.ard
-  - name: ard/gr/po01.ard
-  - name: ard/it/po01.ard
-  - name: ard/sp/po01.ard
-  - name: ard/po01.ard
+  - name: msn/fr/PO01_MS501.bar
+  - name: msn/gr/PO01_MS501.bar
+  - name: msn/it/PO01_MS501.bar
+  - name: msn/sp/PO01_MS501.bar
+  - name: msn/jp/PO01_MS501.bar
   source:
-  - method: areadatascript
-    name: evt
+  - method: copy
+    name: po01
     source:
-    - name: files/po01evt.yml
-    type: AreaDataScript
+    - name: files/PO01_MS501.bdx
+    type: Bdx
 - method: binarc
-  name: ard/us/po03.ard
+  name: msn/us/PO06_MS101.bar
   multi:
-  - name: ard/fr/po03.ard
-  - name: ard/gr/po03.ard
-  - name: ard/it/po03.ard
-  - name: ard/sp/po03.ard
-  - name: ard/po03.ard
+  - name: msn/fr/PO06_MS101.bar
+  - name: msn/gr/PO06_MS101.bar
+  - name: msn/it/PO06_MS101.bar
+  - name: msn/sp/PO06_MS101.bar
+  - name: msn/jp/PO06_MS101.bar
   source:
-  - method: areadatascript
-    name: evt
+  - method: copy
+    name: po06
     source:
-    - name: files/po03evt.yml
-    type: AreaDataScript
+    - name: files/PO06_MS101.bdx
+    type: Bdx
 - method: binarc
-  name: ard/us/po04.ard
+  name: msn/us/PO07_MS201.bar
   multi:
-  - name: ard/fr/po04.ard
-  - name: ard/gr/po04.ard
-  - name: ard/it/po04.ard
-  - name: ard/sp/po04.ard
-  - name: ard/po04.ard
+  - name: msn/fr/PO07_MS201.bar
+  - name: msn/gr/PO07_MS201.bar
+  - name: msn/it/PO07_MS201.bar
+  - name: msn/sp/PO07_MS201.bar
+  - name: msn/jp/PO07_MS201.bar
   source:
-  - method: areadatascript
-    name: evt
+  - method: copy
+    name: po07
     source:
-    - name: files/po04evt.yml
-    type: AreaDataScript
+    - name: files/PO07_MS201.bdx
+    type: Bdx
 - method: binarc
-  name: ard/us/po05.ard
+  name: msn/us/PO08_MS301.bar
   multi:
-  - name: ard/fr/po05.ard
-  - name: ard/gr/po05.ard
-  - name: ard/it/po05.ard
-  - name: ard/sp/po05.ard
-  - name: ard/po05.ard
+  - name: msn/fr/PO08_MS301.bar
+  - name: msn/gr/PO08_MS301.bar
+  - name: msn/it/PO08_MS301.bar
+  - name: msn/sp/PO08_MS301.bar
+  - name: msn/jp/PO08_MS301.bar
   source:
-  - method: areadatascript
-    name: evt
+  - method: copy
+    name: po08
     source:
-    - name: files/po05evt.yml
-    type: AreaDataScript
+    - name: files/PO08_MS301.bdx
+    type: Bdx
 #Spooky Cave
 - method: binarc
   name: ard/us/po09.ard
@@ -75,3 +75,48 @@ assets:
     source:
     - name: files/b_30.yml
     type: AreaDataSpawn
+#PC Remastered
+- name: remastered/msn/us/PO01_MS501.bar/US_PO01_MS501_bar5.png
+  platform: pc
+  multi:
+  - name: remastered/msn/fr/PO01_MS501.bar/FR_PO01_MS501_bar5.png
+  - name: remastered/msn/gr/PO01_MS501.bar/GR_PO01_MS501_bar5.png
+  - name: remastered/msn/it/PO01_MS501.bar/IT_PO01_MS501_bar5.png
+  - name: remastered/msn/sp/PO01_MS501.bar/SP_PO01_MS501_bar5.png
+  method: copy
+  source:
+  - name: remastered/msn/us/PO01_MS501.bar/US_PO01_MS501_bar5.png
+    type: internal
+- name: remastered/msn/us/PO06_MS101.bar/US_PO06_MS101_bar4.png
+  platform: pc
+  multi:
+  - name: remastered/msn/fr/PO06_MS101.bar/FR_PO06_MS101_bar4.png
+  - name: remastered/msn/gr/PO06_MS101.bar/GR_PO06_MS101_bar4.png
+  - name: remastered/msn/it/PO06_MS101.bar/IT_PO06_MS101_bar4.png
+  - name: remastered/msn/sp/PO06_MS101.bar/SP_PO06_MS101_bar4.png
+  method: copy
+  source:
+  - name: remastered/msn/us/PO06_MS101.bar/US_PO06_MS101_bar5.png
+    type: internal
+- name: remastered/msn/us/PO07_MS201.bar/US_PO07_MS201_bar4.png
+  platform: pc
+  multi:
+  - name: remastered/msn/fr/PO07_MS201.bar/FR_PO07_MS201_bar4.png
+  - name: remastered/msn/gr/PO07_MS201.bar/GR_PO07_MS201_bar4.png
+  - name: remastered/msn/it/PO07_MS201.bar/IT_PO07_MS201_bar4.png
+  - name: remastered/msn/sp/PO07_MS201.bar/SP_PO07_MS201_bar4.png
+  method: copy
+  source:
+  - name: remastered/msn/us/PO07_MS201.bar/US_PO07_MS201_bar5.png
+    type: internal
+- name: remastered/msn/us/PO08_MS301.bar/US_PO08_MS301_bar5.png
+  platform: pc
+  multi:
+  - name: remastered/msn/fr/PO08_MS301.bar/FR_PO08_MS301_bar5.png
+  - name: remastered/msn/gr/PO08_MS301.bar/GR_PO08_MS301_bar5.png
+  - name: remastered/msn/it/PO08_MS301.bar/IT_PO08_MS301_bar5.png
+  - name: remastered/msn/sp/PO08_MS301.bar/SP_PO08_MS301_bar5.png
+  method: copy
+  source:
+  - name: remastered/msn/us/PO08_MS301.bar/US_PO08_MS301_bar5.png
+    type: internal
